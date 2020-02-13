@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+/*******************************
+   My CSS
+ *******************************/
+.body-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile-container {
+  width: 33%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.profile-img {
+  width: 64px;
+  height: 64px;
+}
+
+.post-container {
+  margin-top: 30px;
+  width: 66%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.post {
+  margin: 10px 20%;
+  width: 60%;
+  padding: 20px;
+}
+
+.like {
+  cursor: pointer;
+}
